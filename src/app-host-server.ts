@@ -235,13 +235,17 @@ function getHostPageHtml(hostPort: number, sandboxPort: number): string {
         status.textContent = 'App connected!';
         setTimeout(() => { status.style.display = 'none'; }, 1000);
 
-        // Send initialize response
+        // Send initialize response (must match McpUiInitializeResultSchema)
         sendToApp({
           jsonrpc: '2.0',
           id: id,
           result: {
-            protocolVersion: '0.1.0',
-            capabilities: {
+            protocolVersion: msg.params?.protocolVersion || '2025-11-21',
+            hostInfo: {
+              name: 'mcp-app-shim',
+              version: '0.1.0',
+            },
+            hostCapabilities: {
               serverTools: {},
               openLinks: {},
             },
