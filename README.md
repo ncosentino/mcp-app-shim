@@ -4,6 +4,12 @@ A stdio MCP proxy that bridges CLI-based MCP clients (like [GitHub Copilot CLI](
 
 Built by [Nick Cosentino](https://www.linktr.ee/devleader) to support development on the [BrandGhost](https://www.brandghost.ai) platform.
 
+## Example
+
+An Excalidraw architecture diagram rendered in the browser via `mcp-app-shim`, triggered from a Copilot CLI tool call:
+
+![Excalidraw diagram rendered via mcp-app-shim](docs/excalidraw-example.png)
+
 ## The Problem
 
 MCP App servers (like [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp)) use `registerAppTool()` to expose tools with interactive HTML widgets. Hosts like Claude Desktop or ChatGPT render these inline. But stdio-based clients like Copilot CLI don't support the MCP Apps UI extension — they only see the text result and silently discard the interactive content.
