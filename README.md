@@ -2,7 +2,7 @@
 
 A stdio MCP proxy that bridges CLI-based MCP clients (like [GitHub Copilot CLI](https://docs.github.com/en/copilot)) to [MCP App](https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/apps) servers with interactive browser-based UIs.
 
-Built by [Nexus Labs](https://github.com/nexus-labs) to support development on the [BrandGhost](https://www.brandghost.ai) platform.
+Built by [Nick Cosentino](https://www.linktr.ee/devleader) to support development on the [BrandGhost](https://www.brandghost.ai) platform.
 
 ## The Problem
 
@@ -39,7 +39,7 @@ MCP App servers (like [Excalidraw MCP](https://github.com/excalidraw/excalidraw-
 ### Install
 
 ```bash
-git clone https://github.com/nexus-labs/mcp-app-shim.git
+git clone https://github.com/ncosentino/mcp-app-shim.git
 cd mcp-app-shim
 npm install
 npm run build
@@ -237,4 +237,4 @@ MIT
 
 ---
 
-Created by [Nexus Labs](https://github.com/nexus-labs) for [BrandGhost](https://www.brandghost.ai) — an AI-powered social media management platform.
+Created by [Nick Cosentino](https://www.linktr.ee/devleader) for [BrandGhost](https://www.brandghost.ai) — an AI-powered social media management platform.
