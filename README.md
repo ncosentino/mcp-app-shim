@@ -2,7 +2,7 @@
 
 A stdio MCP proxy that bridges CLI-based MCP clients (like [GitHub Copilot CLI](https://docs.github.com/en/copilot)) to [MCP App](https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/apps) servers with interactive browser-based UIs.
 
-Built by [Nick Cosentino](https://www.linktr.ee/devleader) to support development on the [BrandGhost](https://www.brandghost.ai) platform.
+Built by [Nick Cosentino](https://links.devleader.ca) to support development on the [BrandGhost](https://www.brandghost.ai) platform.
 
 ## Example
 
@@ -243,4 +243,4 @@ MIT
 
 ---
 
-Created by [Nick Cosentino](https://www.linktr.ee/devleader) for [BrandGhost](https://www.brandghost.ai) — an AI-powered social media management platform.
+Created by [Nick Cosentino](https://links.devleader.ca) for [BrandGhost](https://www.brandghost.ai) — an AI-powered social media management platform.
